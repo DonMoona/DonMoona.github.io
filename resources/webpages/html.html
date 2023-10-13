@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Tags</title>
+        <link href="../css/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Roboto+Mono:wght@400;700&family=Rubik+Mono+One&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><span id="cheatsheet">Cheatsheet</span></li>
+                    <li><a href="../../index.html">Setup</a></li>
+                    <li><a class="active">HTML</a></li>
+                    <li><a href="./css.html">CSS</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="banner">
+            <h1>HTML Tags</h1>
+            <p>Standard tags used in HTML documents</p>
+        </div>
+        <div id="tableRef">
+            <h2>HTML Table Reference</h2>
+            <h3>Table Tags</h3>
+            <table class="myTable">
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;table&gt;</td>
+                        <td>Table</td>
+                        <td>The wrapper element for all HTML tables.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;thead&gt;</td>
+                        <td>Table Head</td>
+                        <td>The set of rows defining the column headers in a table.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tbody&gt;</td>
+                        <td>Table Body</td>
+                        <td>The set of rows containing actual table data.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tr&gt;</td>
+                        <td>Table Row</td>
+                        <td>The table row container.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;td&gt;</td>
+                        <td>Table Data</td>
+                        <td>The table row container.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tfoot&gt;</td>
+                        <td>Table Footer</td>
+                        <td>The set of rows defining the footer in a table.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Table Attributes</h3>
+            <table class="myTable">
+                <thead>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>    
+                <tbody>
+                    <tr>
+                        <td>colspan</td>
+                        <td>Column Span</td>
+                        <td>Defines how many columns a td element should span.</td>
+                    </tr>
+                    <tr>
+                        <td>rowspan</td>
+                        <td>Row Span</td>
+                        <td>Defines how many rows a td element should span.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="imgRef">
+            <h2>HTML Image Reference</h2>
+            <h3>Image Tags</h3>
+            <table class="myTable">
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;img&gt;</td>
+                        <td>Image</td>
+                        <td>Embeds an image into the document.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;picture&gt;</td>
+                        <td>Picture</td>
+                        <td>Contains zero or more &lt;source&gt; elements and one &lt;img&gt; element to offer alternative versions of an image for different display/device scenarios.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;figure&gt;</td>
+                        <td>Figure</td>
+                        <td>Represents self-contained content, potentially with an optional caption, which is specified using the &lt;figcaption&gt; element.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Image Attributes</h3>
+            <table class="myTable">
+                <thead>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>src</td>
+                        <td>Source</td>
+                        <td>Contains the path to the image you want to embed.</td>
+                    </tr>
+                    <tr>
+                        <td>alt</td>
+                        <td>Alternative</td>
+                        <td>Holds a text description of the image.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="anchorRef">
+            <h2>HTML Anchor Reference</h2>
+            <h3>Anchor Tags</h3>
+            <table class="myTable">
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;a&gt;</td>
+                        <td>Anchor</td>
+                        <td>Creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Anchor Attributes</h3>
+            <table class="myTable">
+                <thead>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>href</td>
+                        <td>Hyperlink Reference</td>
+                        <td>The URL that the hyperlink points to.</td>
+                    </tr>
+                    <tr>
+                        <td>rel</td>
+                        <td>Relationship</td>
+                        <td>The relationship of the linked URL as space-separated link types.</td>
+                    </tr>
+                    <tr>
+                        <td>target</td>
+                        <td>Target</td>
+                        <td>Where to display the linked URL, as the name for a browsing context.</td>
+                    </tr>
+                    <tr>
+                        <td>download</td>
+                        <td>Download</td>
+                        <td>Causes the browser to treat the linked URL as a download.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="textRef">
+            <h2>HTML Text Reference</h2>
+            <h3>Text Tags</h3>
+            <table class="myTable">
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;h1-h6&gt;</td>
+                        <td>Heading</td>
+                        <td>Represents six levels of section headings.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td>Paragraph</td>
+                        <td>HTML paragraphs can be any structural grouping of related content, such as images or form fields.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;article&gt;</td>
+                        <td>Article</td>
+                        <td>Represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;aside&gt;</td>
+                        <td>Aside</td>
+                        <td>Represents a portion of a document whose content is only indirectly related to the document's main content.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;blockquote&gt;</td>
+                        <td>Block Quotation</td>
+                        <td>Indicates that the enclosed text is an extended quotation.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;address&gt;</td>
+                        <td>Address</td>
+                        <td>Indicates that the enclosed HTML provides contact information for a person or people, or for an organization.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;br&gt;</td>
+                        <td>Line Break</td>
+                        <td>Produces a line break in text.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;hr&gt;</td>
+                        <td>Thematic Break</td>
+                        <td>Represents a thematic break between paragraph-level elements.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;em&gt;</td>
+                        <td>Emphasis</td>
+                        <td>Marks text that has stress emphasis.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;i&gt;</td>
+                        <td>Idiomatic Text</td>
+                        <td>A range of text that is set off from the normal text for some reason, presented using italicized type.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;strong&gt;</td>
+                        <td>Strong Importance</td>
+                        <td>Indicates that its contents have strong importance, seriousness, or urgency. Browsers typically render the contents in bold type.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;span&gt;</td>
+                        <td>Contnet Span</td>
+                        <td>A generic inline container for phrasing content, which does not inherently represent anything.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Text Attributes</h3>
+            <table class="myTable">
+                <thead>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>cite</td>
+                        <td>Cite</td>
+                        <td>A URL that designates a source document or message for the information quoted.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="listRef">
+            <h2>HTML List Reference</h2>
+            <h3>List Tags</h3>
+            <table class="myTable">
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;ul&gt;</td>
+                        <td>Unordered List</td>
+                        <td>Represents an unordered list of items, typically rendered as a bulleted list.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ol&gt;</td>
+                        <td>Ordered List</td>
+                        <td>Represents an ordered list of items, typically rendered as a numbered list.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;</td>
+                        <td>List Item</td>
+                        <td>Used to represent an item in a list.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>List Attributes</h3>
+            <table class="myTable">
+                <thead>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>reversed</td>
+                        <td>Reversed</td>
+                        <td>Specifies that the list's items are in reverse order. Items will be numbered from high to low.</td>
+                    </tr>
+                    <tr>
+                        <td>start</td>
+                        <td>Start</td>
+                        <td>An integer to start counting from for the list items.</td>
+                    </tr>
+                    <tr>
+                        <td>type</td>
+                        <td>Type</td>
+                        <td>Sets the numbering type.</td>
+                    </tr>
+                    <tr>
+                        <td>value</td>
+                        <td>Value</td>
+                        <td>Integer attribute indicates the current ordinal value of the list item as defined by the &lt;ol&gt; element.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <footer>
+            <p>© 2023 MoonFaceXD</p>
+        </footer>
+    </body>
+</html>
