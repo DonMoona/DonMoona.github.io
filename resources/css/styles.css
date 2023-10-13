@@ -85,6 +85,7 @@ nav ul li a:hover {
     width: 1000px;
     margin: 0 auto;
     color: rgb(229, 195, 166);
+    font-size: 20px;
   }
 
   #banner p {
@@ -125,6 +126,7 @@ nav ul li a:hover {
 h2 {
     margin: 100px 0 20px;
     color: rgb(194, 190, 190);
+    font-size: 32px;
 }
 
 h3{
