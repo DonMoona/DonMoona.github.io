@@ -1,9 +1,143 @@
+<!DOCTYPE html>
 <html>
-
-<body>
-  <h1>Dijon Moona-Creary</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
-
+    <head>
+        <title>HTML and CSS Cheatsheet</title>
+        <link rel="stylesheet" href="./resources/css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Roboto+Mono:wght@400;700&family=Rubik+Mono+One&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><span id="cheatsheet">Cheatsheet</span></li>
+                    <li><a class="active">Setup</a></li>
+                    <li><a href="./resources/webpages/html.html">HTML</a></li>
+                    <li><a href="./resources/webpages/css.html">CSS</a></li>
+                    <li><a href="./resources/webpages/about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="banner">
+            <h1> HTML and CSS Cheatsheet</h1>
+            <p>A quick guide to building a basic webpage</p>
+        </div>
+        <div id="htmlBasic">
+            <h2>HTML Basic Setup</h2>
+            <p>HTML stands for hyperlink text markup language, and is the most basic building block of a webpage. It defines the meaning and structure of web content. HTML uses tags to differentiate between web elements and basic text.</p>
+            <img src="./resources/images/html_setup.PNG">
+        </div>
+        <div id="htmlBasicTable">    
+            <table class="myTable">
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag">&lt;!DOCTYPE html&gt;</td>
+                        <td>Doctype</td>
+                        <td>Required preamble. Purpose is to prevent a browser from switching into so-called "quirks mode" when rendering a document.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;html&gt;</td>
+                        <td>HTML</td>
+                        <td>Wraps all the content on the entire page and is sometimes known as the root element.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;head&gt;</td>
+                        <td>Head</td>
+                        <td>Acts as a container for all the stuff you want to include on the HTML page that isn't the content you are showing to your page's viewers.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;title&gt;</td>
+                        <td>Title</td>
+                        <td>Sets the title of your page, which is the title that appears in the browser tab the page is loaded in.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;link&gt;</td>
+                        <td>Link</td>
+                        <td>Specifies relationships between the current document and an external resource.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;body&gt;</td>
+                        <td>Body</td>
+                        <td>Contains all the content that you want to show to web users when they visit your page.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;header&gt;</td>
+                        <td>Header</td>
+                        <td>Represents introductory content, typically a group of introductory or navigational aids.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;div&gt;</td>
+                        <td>Division</td>
+                        <td>Generic container for flow content.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;footer&gt;</td>
+                        <td>Footer</td>
+                        <td>Represents a footer for its nearest ancestor sectioning content or sectioning root element.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="CSSBasic">
+            <h2>CSS Basic Setup</h2>
+            <p>CSS stands for cascade style sheet and is the standard language used to style html webpages. The language utilises rules to apply styling to html components.</p>
+            <img src="./resources/images/css_setup.PNG">
+        </div>
+        <div id="CSSBasicTable">
+            <table class="myTable">
+                <thead>
+                    <tr>
+                        <th>Component</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rule</td>
+                        <td>Specify groups of styles that should be applied to particular elements or groups of elements on your web page.</td>
+                    </tr>
+                    <tr>
+                        <td>Selector</td>
+                        <td>A pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them.</td>
+                    </tr>
+                    <tr>
+                        <td>Declaration</td>
+                        <td>Specifies a property and its value.</td>
+                    </tr>
+                    <tr>
+                        <td>Property</td>
+                        <td>A characteristic whose associated value defines one aspect of how the browser should display the element.</td>
+                    </tr>
+                    <tr>
+                        <td>Value</td>
+                        <td>Defines the magnitude of a property, either as an integer or keyword.</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Selectors</th>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td>Class selectors target an element that has a specific value for its class attribute.</td>
+                    </tr>
+                    <tr>
+                        <td>#</td>
+                        <td>ID selectors target an element that has a specific value for its id attribute.</td>
+                    </tr>
+                    <tr>
+                        <td>[]</td>
+                        <td>Select elements based on the presence of a certain attribute on an element or particular value.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <footer>
+            <p>© 2023 MoonFaceXD</p>
+        </footer>
+    </body>
 </html>
